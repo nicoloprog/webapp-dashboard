@@ -50,4 +50,3 @@ export default function Page() {
     </main>
   );
 }
-export async function POST(request: Request) {}
