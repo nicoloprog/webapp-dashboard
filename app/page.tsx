@@ -17,11 +17,11 @@ export default function Page() {
           <p
             className={`${encodeSans.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
-            <strong>Welcome to Acme.</strong> This is the example for the{" "}
+            <strong>Welcome to Grandiflores.</strong> This is{" "}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
+              the best clinic in town
             </a>
-            , brought to you by Vercel.
+            , brought to you by Nicolo.
           </p>
           <Link
             href="/login"
@@ -50,3 +50,4 @@ export default function Page() {
     </main>
   );
 }
+export async function POST(request: Request) {}
